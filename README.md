@@ -1,7 +1,15 @@
 ## Udacity Front End Web Developer Project 3
 ###By James DeLapa III
+Original Submission Date: 14 March 2016
 
 Project 3 is a Frogger-style game utilizing Object Oriented JavaScript and HTML5 Canvas
+
+## How to run this program
+
+After downloading all files for this project, simply double click 'index.html' for this project to open in your browser of choice.
+
+Using the 'up', 'down', 'left', and 'right' arrows on your keyboard, you can direct your 'hero' across the canvas to safety.
+Watch out for bugs! They are your enemy and will reset your position.
 
 ### Project Overview and Guidelines:
 Visual assets and a game loop engine are provided to create a Frogger-style game using HTML5 Canvas and Javascript.
@@ -24,7 +32,10 @@ The Udacity Instructions are written as follows:
 
     Basic Functionality
 
-    In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies. The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. Once a the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the water the game is won.
+    In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies.
+    The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene.
+    Once a the player collides with an enemy, the game is reset and the player moves back to the start square.
+    Once the player reaches the water the game is won.
 
     Additional Functionality
 
@@ -106,7 +117,8 @@ The Udacity Instructions are written as follows:
 index.html
 * **Modified script load order on index.html to allow app.js to use 'canvas.height' and 'canvas.width' as relative edges as opposed to specific grid lines. This allows adjustments to be made to canvas size without affecting game play (too much).
 engine.js
-* **Added images to engine.js, assigned canvas to the global variable.
+* **Added images from 'Planet Cute' to engine.js, assigned canvas to the global variable.
+* **Modified terrain to make canvas larger and allow for more spacing between enemy vehicles.
 app.js (in addition to requirements)
 * ** Added enemy vehicle 'reverse-bug' to create an enemy that goes the other direction.
 * ** Modified Enemy object so enemies that go right to left will have a different image as well as different start and end points.
@@ -114,11 +126,15 @@ app.js (in addition to requirements)
 
 ### repositoryincludes the following files:
 
-* **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the resume, including resumeBuilder.js.
-* **js/helper.js**: Contains helper code needed to format the resume and build the map. Functionality was added by me per the assignment.
-* **js/resumeBuilder.js**: This is the file where all the code written within was done so by me.
-* **js/jQuery.js**: The jQuery library.
+* **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the frogger game.
+* **js/app.js**: Contains most of the code created by me for this project - code assigns values and attributes to objects.
+* **js/engine.js**: Mostly a file provided by Udacity. Contains the engine that runs this game.
+* **js/resources.js**: Resources for this project.
 * **css/style.css**: Contains all of the CSS needed to style the page.
 * **README.md**:
 The GitHub readme file.
 * and some images in the images directory.
+
+## Resources Used
+* Udacity provided engine, starting code and requirements.
+* Planet Cute Images: http://www.lostgarden.com/2007/05/dancs-miraculously-flexible-game.html
