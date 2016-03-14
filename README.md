@@ -8,10 +8,12 @@ Visual assets and a game loop engine are provided to create a Frogger-style game
 Using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.
 
 Udacity Basic Game Image:
+
 ![alt text](https://docs.google.com/a/seniorcaredirectory.com/drawings/image?id=swAv5AN00tRIxfdzMdTy3yg&rev=34&h=474&w=481&ac=1 "Udacity Frogger Game")
 
 
 My Completed Game Image:
+
 ![alt text](https://github.com/jamesd3/Web-Developer-Project-3/blob/master/portfolio-cover.jpg "Udacity Frogger Game")
 
 The Udacity Instructions are written as follows:
