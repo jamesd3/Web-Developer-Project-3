@@ -17,7 +17,7 @@ My Completed Game Image:
 ![alt text](https://github.com/jamesd3/Web-Developer-Project-3/blob/master/portfolio-cover.jpg "Udacity Frogger Game")
 
 The Udacity Instructions are written as follows:
-'''Frogger Game Description
+```Frogger Game Description
 
 Your implementation must at minimum follow the basic functionality, but you can add additional optional functionality to your game, if you wish.
 
@@ -85,20 +85,20 @@ Once you have completed implementing the Player and Enemy, you should instantiat
 
 Adding your own
 
-If you would like you can add additional functionality to the game. You can add more code to the app.js file and to the Enemy and Player classes to accomplish that.'''
+If you would like you can add additional functionality to the game. You can add more code to the app.js file and to the Enemy and Player classes to accomplish that.```
 
 
 ### Steps to Completion
 
-* 1 Take Object Oriented JavaScript Course.
-* 2 Take HTML5 Canvas Course.
-* 3 Read the detailed instructions for the project.
-* 4 Download the art assets and provided game engine.
-* 5 Review the video of the completed game and take note of the game's rules.
-* 6 Review the code and comments provided in app.js
-* 7 Identify the various classes you will need to write.
-* 8 Identify and code the properties each class must have to accomplish its tasks.
-* 9 Write the functions that provide functionality to each of your class instances.
+1. Take Object Oriented JavaScript Course.
+2. Take HTML5 Canvas Course.
+3. Read the detailed instructions for the project.
+4. Download the art assets and provided game engine.
+5. Review the video of the completed game and take note of the game's rules.
+6. Review the code and comments provided in app.js
+7. Identify the various classes you will need to write.
+8. Identify and code the properties each class must have to accomplish its tasks.
+9. Write the functions that provide functionality to each of your class instances.
 
 
 ### Notable Alterations to Game (beyond 'meets expectations' scope)
