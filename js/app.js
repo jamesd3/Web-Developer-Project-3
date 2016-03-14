@@ -30,6 +30,7 @@ Enemy.prototype.update = function(dt) {
 // Player resets to original position if they get to close to enemy.
     if(player.x >= this.x - 30 && player.x <= this.x + 30){
         if(player.y >= this.y - 35 && player.y <= this.y + 35){
+            alert('You are really bad at this. Click ok to try again.');
             player.reset();
         }
     }
@@ -57,11 +58,11 @@ Player.prototype.update = function() {
     // for given direction provided Player is not on the edge
     // or off canvas.
     if(this.heroMove === 'left' && this.x > 50) {
-        this.x -= 84;
+        this.x -= 100;
     }else if(this.heroMove === 'down' && this.y <= (canvas.height - 300)) {
         this.y += 84;
     }else if(this.heroMove === 'right' && this.x <= (canvas.width - 150)) {
-        this.x += 84;
+        this.x += 100;
     }else if(this.heroMove === 'up' && this.y > 50) {
         this.y -= 84;
     }
