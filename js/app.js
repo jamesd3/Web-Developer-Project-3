@@ -57,13 +57,13 @@ Player.prototype.update = function() {
     // for given direction provided Player is not on the edge
     // or off canvas.
     if(this.heroMove === 'left' && this.x > 50) {
-        this.x -= 50;
+        this.x -= 84;
     }else if(this.heroMove === 'down' && this.y <= (canvas.height - 300)) {
-        this.y += 50;
+        this.y += 84;
     }else if(this.heroMove === 'right' && this.x <= (canvas.width - 150)) {
-        this.x += 50;
+        this.x += 84;
     }else if(this.heroMove === 'up' && this.y > 50) {
-        this.y -= 50;
+        this.y -= 84;
     }
     this.heroMove = null;
 
