@@ -11,6 +11,8 @@ After downloading all files for this project, simply double click 'index.html' f
 Using the 'up', 'down', 'left', and 'right' arrows on your keyboard, you can direct your 'hero' across the canvas to safety.
 Watch out for bugs! They are your enemy and will reset your position.
 
+If game screen is too large for your current screen resolution, press ctrl- to zoom out until canvas is appropriate size.
+
 ### Project Overview and Guidelines:
 Visual assets and a game loop engine are provided to create a Frogger-style game using HTML5 Canvas and Javascript.
 Using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.
