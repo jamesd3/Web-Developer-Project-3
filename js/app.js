@@ -1,3 +1,4 @@
+'use strict';
 // Enemies our player must avoid
 var Enemy = function(x, y, direction, sprite) {
     // The image/sprite for our enemies, this uses
@@ -72,7 +73,7 @@ Player.prototype.update = function() {
     // Upon pressing 'Ok', reset to original position
     if(this.y < 50){
         alert('Congratulations! You made it to the safe zone! Click ok to restart');
-        player.reset();
+        this.reset();
     }
 };
 
@@ -107,12 +108,12 @@ var player = new Player();
 
 // Moved from document.addEventListener because this object
 // only needs to be called once.
-    var allowedKeys = {
-        37: 'left',
-        38: 'up',
-        39: 'right',
-        40: 'down'
-    };
+var allowedKeys = {
+    37: 'left',
+    38: 'up',
+    39: 'right',
+    40: 'down'
+};
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method.
